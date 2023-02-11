@@ -1,0 +1,58 @@
+
+
+.container {
+    .create_parent {
+        margin-top: 50px;
+
+        &_title {
+            h2 {
+                font-size: 2em;
+                font-weight: 100;
+            }
+        }
+
+        &_row {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            &_form {
+                width: 500px;
+                background-color: rgb(54, 56, 56);
+                padding: 50px;
+                text-align: center;
+                border-radius: 10px;
+
+                input {
+                    width: 80%;
+                    padding: 15px 5px;
+                    border-radius: 10px;
+                    border: 0;
+                    outline: 0;
+                    margin: 15px 0;
+                    font-size: 20px;
+                }
+
+                button {
+                    width: 250px;
+                    background-color: rgb(47, 255, 92);
+                    padding: 15px 0;
+                    border: 0;
+                    outline: 0;
+                    color: white;
+                    cursor: pointer;
+                    border-radius: 10px;
+                    font-size: 20px;
+                }
+            }
+
+            .banner {
+                background: url("https://i.pcmag.com/imagery/articles/05hXk1J5R4iHWkM13wqrr9M-7..v1617810675.jpg") center / cover;
+                height: 500px;
+                width: 50%;
+                cursor: pointer;
+                border-radius: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.notFound_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    &_card {
+        text-align: center;
+
+        h1 {
+            font-size: 150px;
+            margin: 0;
+        }
+
+        p {
+            margin-bottom: 50px;
+            font-size: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 15px 20px;
+            width: 150px;
+            border-radius: 10px;
+            background-color: rgb(90, 172, 172);
+            font-size: 20px;
+            color: white;
+        }
+    }
+}

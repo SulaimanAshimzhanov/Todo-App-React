@@ -1,0 +1,62 @@
+
+
+.container {
+    .main_parent {
+        margin-top: 50px;
+
+        &_title {
+            h2 {
+                font-size: 2em;
+                font-weight: 100;
+            }
+        }
+
+        &_row {
+            display: flex;
+            margin-top: 50px;
+            gap: 30px;
+
+            &_loader {
+                margin: auto;
+                height: 50vh;
+                display: flex;
+                align-items: center;
+            }
+
+            .card {
+                width: 30%;
+                height: auto;
+                background-color: rgb(58, 56, 56);
+                padding: 10px;
+                color: white;
+                border-radius: 10px;
+                cursor: pointer;
+
+                h2 {
+                    margin-bottom: 30px;
+                }
+
+                h5 {
+                    text-align: right;
+                    margin-top: 20px;
+                }
+
+                &_footer {
+                    text-align: center;
+                    margin-top: 30px;
+                    
+                    button {
+                        width: 150px;
+                        padding: 15px 0;
+                        background-color: rgb(218, 63, 63);
+                        color: white;
+                        font-size: 20px;
+                        border-radius: 10px;
+                        border: 0;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

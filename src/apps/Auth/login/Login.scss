@@ -1,0 +1,84 @@
+.login_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("https://img.freepik.com/free-vector/paper-style-white-monochrome-background_52683-66443.jpg?w=2000") center / cover;
+
+    &_card {
+        width: 400px;
+        height: auto;
+        padding: 25px 0;
+        background-color: rgba(129, 128, 128, 0.9);
+        border-radius: 10px;
+        box-shadow:0 0 300px black;
+        text-align: center;
+
+        h2 {
+            color: white;
+        }
+
+        form{
+            input {
+                width: 80%;
+                padding: 15px 5px;
+                border-radius: 10px;
+                border: 0;
+                outline: o;
+                font-size: 20px;
+                margin: 10px 0;
+                outline: 0;
+                transition: .5s;
+            }
+
+            input:hover {
+                transform: scale(1.1, 1.1);
+                box-shadow: 0 0 20px rgb(90, 172, 172);
+                outline: 0;
+            }
+
+            button {
+                width: 250px;
+                padding: 15px 0;
+                border-radius: 10px;
+                font-size: 20px;
+                border: 0;
+                cursor: pointer;
+                background-color: rgb(90, 172, 172);
+                color: black;
+                margin-top: 20px;
+                transition: .5s;
+            }
+
+            button:hover {
+                border: 1px solid aqua;
+                background-color: transparent;
+                color: white;
+                text-shadow: 0 0 10px white;
+                box-shadow: 0 0 10px grayscale($color: #000000);
+            }
+
+            .disableBtn {
+                background-color: rgb(241, 61, 61);
+                cursor: no-drop;
+                transition: .5s;
+            }
+
+            .disableBtn:hover {
+                background-color: transparent;
+                color: red;
+                border: 1px solid red;
+            }
+
+            .errors {
+                color: red;
+                margin: 0;
+            }
+
+            .success {
+                color: rgb(87, 223, 87);
+                margin: 0;
+            }
+        }
+    }
+}
